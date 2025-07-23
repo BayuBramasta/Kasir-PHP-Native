@@ -20,9 +20,9 @@
   <!-- OPTIONAL SCRIPTS -->
   <!-- <script src="plugins/chart.js/Chart.min.js"></script> -->
   <!-- AdminLTE for demo purposes -->
-  <script src="dist/js/demo.js"></script>
+  <!-- <script src="dist/js/demo.js"></script> -->
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="dist/js/pages/dashboard3.js"></script>
+  <!-- <script src="dist/js/pages/dashboard3.js"></script> -->
   <!-- DataTables  & Plugins -->
   <script src="plugins/datatables/jquery.dataTables.min.js"></script>
   <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -186,14 +186,6 @@
               title: 'Edit berhasil',
               text: 'Silahkan Log Out terlebih dahulu untuk melihat perubahan.',
               icon: 'info',
-              confirmButtonText: 'OK'
-            });
-          </script>";
-    } elseif ($status == 'pembayaranberhasil') {
-      echo "<script>
-            Swal.fire({
-              title: 'Pembayaran berhasil',
-              icon: 'success',
               confirmButtonText: 'OK'
             });
           </script>";
